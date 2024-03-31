@@ -1,0 +1,54 @@
+.PrimeiraPage {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: var(--color-shadow);
+}
+
+.InputsCalc {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+.wrapCalcMedia {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.inpStyle {
+  color: #ffff;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: var(--color-shadow);
+  background-color: var(--bg-secondary);
+}
+
+.btnStyle {
+  border: none;
+  opacity: 0.7;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 1.2rem;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: var(--bg-third);
+}
+
+.btnStyle:hover {
+  opacity: 1;
+  font-size: 1.3rem;
+  box-shadow: var(--color-shadow);
+}
+
+.mediaStyle {
+  text-shadow: var(--color-shadow);
+  font-size: 1.4rem;
+}

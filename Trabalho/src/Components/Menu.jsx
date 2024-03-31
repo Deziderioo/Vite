@@ -1,11 +1,19 @@
-import style from "./Menu.module.css"
+import style from "./Menu.module.css";
 
-export default function Menu(){
-    return(
-        <div className={style.wrapMenu}>
-            <p className={style.wrapP}>
-                <a className={style.wrapA} href={'/'}>Home</a>
-            </p>
-        </div>
-    )
+export default function Menu() {
+  return (
+    <div className={style.wrapMenu}>
+      <div>
+        <p>
+          <a href={"/"}>Home</a>
+        </p>
+        <p>
+          <a href={"/Tecnologias"}>Tecnologias</a>
+        </p>
+        <p>
+          <a href={"/Media"}>Calcule</a>
+        </p>
+      </div>
+    </div>
+  );
 }

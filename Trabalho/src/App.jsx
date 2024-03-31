@@ -1,16 +1,17 @@
-  import style from './App.module.css'
-  import Menu from './Components/Menu'
+import style from "./App.module.css";
+import Menu from "./Components/Menu";
 
-  export default function App() {
-
-    return (
-      <div >
-        <Menu/>
-        <div className={style['wrap-principal']}>
-          <h1 className={style.PrimeiraPage}> Trabalho </h1>
-        </div>
-        </div>
-        
-    
-    )
+export default function App() {
+  return (
+    <div>
+      <div>
+        <Menu />
+      </div>
+      <div>
+        <h1 className={style["firstPageHeading"]}>
+          Bem vindo a Deziderio Planet
+        </h1>
+      </div>
+    </div>
+  );
 }
