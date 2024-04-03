@@ -5,3 +5,28 @@
   justify-content: center;
   text-shadow: var(--color-shadow);
 }
+
+.btnstyle {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+.btnTec {
+  width: 10%;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  box-shadow: var(--color-shadow);
+  padding: 0.7%;
+  background: none;
+}
+
+.WrapCards {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}

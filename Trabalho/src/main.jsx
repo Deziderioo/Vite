@@ -1,6 +1,6 @@
 import React from "react";
 import App from "./App.jsx";
-import Tec from "./Tecnologias.jsx";
+import { Tecnologias } from "./Tecnologias.jsx";
 import { Calc } from "./CalcMedia.jsx";
 import "./index.css";
 import ReactDOM from "react-dom/client";
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Tecnologias",
-    element: <Tec />,
+    element: <Tecnologias />,
   },
   {
     path: "/Media",

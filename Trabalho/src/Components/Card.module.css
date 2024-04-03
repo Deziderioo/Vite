@@ -1,6 +1,6 @@
 .card {
-  width: 200px;
-  height: 30vh;
+  width: 180px;
+  height: 40vh;
   background-color: var(--bg-secondary);
   border-radius: 5px;
   box-shadow: var(--shadow);
@@ -9,5 +9,5 @@
   align-items: center;
   justify-content: space-around;
   gap: 1vh;
-  padding: 0.5em;
+  padding: 1em;
 }
