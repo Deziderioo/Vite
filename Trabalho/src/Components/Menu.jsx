@@ -13,6 +13,9 @@ export default function Menu() {
         <p>
           <a href={"/Media"}>Calcule</a>
         </p>
+        <p>
+          <a href={"/Cont"}>Contato</a>
+        </p>
       </div>
     </div>
   );

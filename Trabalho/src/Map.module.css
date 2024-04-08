@@ -1,0 +1,75 @@
+.wrapMap{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputsDiv{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1em;
+  
+}
+
+.inputS1{
+    border-radius: 50px;
+    width: 350px;
+    height: 50px;
+    color: #ffff;
+    border: none;
+    box-shadow: var(--color-shadow);
+    background-color: var(--bg-secondary);
+}
+
+
+
+textarea{
+    text-align: center;
+    border-radius: 50px;
+    color: #ffff;
+    border: none;
+    box-shadow: var(--color-shadow);
+    background-color: var(--bg-secondary);
+    min-width: 350px;
+    min-height: 50px;
+    max-width: 350px;
+    max-height: 50px;
+}
+
+.inputS1::placeholder {
+    padding-left: 10px; /* ou qualquer outro valor de padding-left que você preferir */
+}
+
+
+
+.txtArea::placeholder {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.btnTec{
+    border: none;
+    opacity: 0.7;
+    font-family: "Gemunu Libre", sans-serif;
+    font-size: 1.2rem;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: var(--bg-secondary);
+}
+.btnTec:hover {
+    opacity: 1;
+    font-size: 1.3rem;
+    box-shadow: var(--color-shadow);
+  }
+
+
+.MapContainer{
+    width: 500px;
+    height: 400px;   
+}

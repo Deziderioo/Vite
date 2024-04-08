@@ -2,6 +2,7 @@ import React from "react";
 import App from "./App.jsx";
 import { Tecnologias } from "./Tecnologias.jsx";
 import { Calc } from "./CalcMedia.jsx";
+import { Contact } from "./Map.jsx";
 import "./index.css";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: "/Media",
     element: <Calc />,
   },
+  {
+    path: "/Cont",
+    element: <Contact />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
