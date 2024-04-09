@@ -6,6 +6,7 @@ import { Contact } from "./Map.jsx";
 import "./index.css";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RickAndMorty } from './RickAPI.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/Cont",
     element: <Contact />,
+  },
+  {
+    path: "/Rick",
+    element: <RickAndMorty/>,
   }
 ]);
 

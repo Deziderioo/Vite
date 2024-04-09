@@ -16,6 +16,9 @@ export default function Menu() {
         <p>
           <a href={"/Cont"}>Contato</a>
         </p>
+        <p>
+          <a href={"/Rick"}>Rick</a>
+        </p>
       </div>
     </div>
   );

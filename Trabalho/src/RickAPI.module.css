@@ -1,0 +1,56 @@
+.wrapH1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapALL{
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapInputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    
+}
+
+.inptStyle{
+  color: #ffff;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: var(--color-shadow);
+  background-color: var(--bg-secondary);
+}
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    gap: 3em;
+    padding: 2em;
+   
+}
+
+/* body{
+    overflow-x: hidden;
+}
+
+.wrapContainer{
+    
+}
+.wrapInputs{
+   
+}
+.wrapCards{
+    
+} */

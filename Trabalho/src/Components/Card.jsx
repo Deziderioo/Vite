@@ -5,7 +5,7 @@ export default function Card(props) {
     <div className={style.card}>
       <h2>{props.title}</h2>
       <img src={props.imgSrc} alt={props.title} width={100} height={"auto"} />
-      <p className={style.p}>{props.desc}</p>
+      <p style={{color:props.statusColor}} className={style.p} >{props.desc}</p>
     </div>
   );
 }
